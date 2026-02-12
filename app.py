@@ -289,7 +289,7 @@ html_content = f"""
 
   /* Hero Section */
   .hero {{
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,12 +386,12 @@ html_content = f"""
 
   /* ============ PHOTO SLIDESHOW SECTION ============ */
   .slideshow-section {{
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
     background: linear-gradient(180deg, #0a0000 0%, #120005 50%, #0a0000 100%);
     position: relative;
   }}
@@ -401,7 +401,7 @@ html_content = f"""
     font-size: clamp(2rem, 5vw, 3.5rem);
     color: #ff5078;
     text-shadow: 0 0 30px rgba(255,80,120,0.2);
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     text-align: center;
   }}
 
@@ -490,12 +490,12 @@ html_content = f"""
 
   /* ============ AFFIRMATIONS SECTION ============ */
   .affirmations-section {{
-    min-height: 100vh;
+    min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
     background: radial-gradient(ellipse at 50% 50%, #1a0008 0%, #0a0000 70%);
     position: relative;
   }}
@@ -503,7 +503,7 @@ html_content = f"""
   .affirmation-card {{
     max-width: 700px;
     text-align: center;
-    padding: 60px 40px;
+    padding: 30px 30px;
     position: relative;
   }}
 
@@ -561,7 +561,7 @@ html_content = f"""
 
   /* ============ FOOTER / LOVE NOTE ============ */
   .footer-section {{
-    padding: 80px 20px;
+    padding: 40px 20px;
     text-align: center;
     background: linear-gradient(180deg, #0a0000 0%, #0d0002 100%);
   }}
@@ -969,4 +969,4 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.components.v1.html(html_content, height=2800, scrolling=True)
+st.components.v1.html(html_content, height=1800, scrolling=True)
