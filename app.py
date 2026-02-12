@@ -27,7 +27,7 @@ images_js = ",\n".join([f'"{img}"' for img in images])
 
 # Valentine's Day target: Feb 14, 2026 00:00:00 EST (UTC-5)
 # We use UTC offset so JS countdown is accurate
-VALENTINE_TARGET_ISO = "2026-02-14T00:00:00-05:00"
+VALENTINE_TARGET_ISO = "2025-01-01T00:00:00-05:00"  # TEMP: set to past date for testing. Change back to "2026-02-14T00:00:00-05:00" before sharing!
 
 # Words of affirmation - placeholder until Tobi provides his
 affirmations = [
