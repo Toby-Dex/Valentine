@@ -29,8 +29,20 @@ images_js = ",\n".join([f'"{img}"' for img in images])
 # We use UTC offset so JS countdown is accurate
 VALENTINE_TARGET_ISO = "2025-01-01T00:00:00-05:00"  # TEMP: set to past date for testing. Change back to "2026-02-14T00:00:00-05:00" before sharing!
 
-# Words of affirmation - placeholder until Tobi provides his
+# Tobi's words of affirmation for Olamide + original placeholders
 affirmations = [
+    "Hey love, I know you're wondering what Tobi has in store for this website.. Well, it's just me embracing my luck in finding the one!",
+    "My dearest! I love how you love me, and how you hold me when I'm sad. You're my good medicine on a bad day. A joyful personality to behold!",
+    "Blessings were flying the day I met you. I would say I've been scared to love you, because I didn't know if I'd do it right.. But your patience, your smile, and your reassurance sets the space for me..",
+    "People don't know about all the times you've put me first.. They don't know about all the days you've cried and I couldn't comfort you. Neither the days you've had to be strong for us..",
+    "But I see you baby… I know how much you've sacrificed. I don't know what I did right to deserve you. But be rest assured that I'll be down to risk it all when it comes to you..",
+    "I would admit that I've been in a bad shape romantically before I met you.. But you came in and taught me how to love properly.. You've dressed me up like a king, You've made me glow better..",
+    "You should know that I've never been complemented by a stranger how good looking I am until you came into my life… You were the missing spice..the color to my sketchbook!",
+    "I know what it feels like when the walls are closing in.. I know how much chaos we are in right now regarding stability here… But babe! Relax! We've got this!",
+    "We might not have all the answers.. But I promise to always guide us through our darkest days.. Be there for us when it seems unsure.. This time, let me be there to help you chase your dreams.. And cuddle you in when it becomes overwhelming..",
+    "One thing's certain. Even In wrong times and heavy tides, You'll always matter to me like the last piece of a birthday cake! Likewise always come first in every decision I make!",
+    "In a game of chess, I'll take your love and leave the rest at stake. I know I picked the prettiest out of the roses.. And I'll fall over and over again to pick it again.",
+    "Even without quantifiable words, I know you'll bear my last name.. As I hold your hands and love you for the rest of forever! 💕",
     "You are the most beautiful soul I have ever known, Olamide.",
     "Every moment with you feels like a blessing I never want to end.",
     "Your smile lights up my entire world, Aminat.",
@@ -391,7 +403,7 @@ html_content = f"""
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 20px 20px 10px 20px;
     background: linear-gradient(180deg, #0a0000 0%, #120005 50%, #0a0000 100%);
     position: relative;
   }}
@@ -495,7 +507,7 @@ html_content = f"""
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 10px 20px 40px 20px;
     background: radial-gradient(ellipse at 50% 50%, #1a0008 0%, #0a0000 70%);
     position: relative;
   }}
@@ -503,7 +515,7 @@ html_content = f"""
   .affirmation-card {{
     max-width: 700px;
     text-align: center;
-    padding: 30px 30px;
+    padding: 20px 30px;
     position: relative;
   }}
 
